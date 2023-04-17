@@ -23,14 +23,14 @@ module.exports = () => {
         chunks: ['main'],
       }),
       new WebpackPwaManifest({
-        name: 'My App',
-        short_name: 'My App',
+        name: 'pwa-text-editor',
+        short_name: 'pwa',
         description: 'My Progressive Web App',
         background_color: '#ffffff',
         theme_color: '#ffffff',
         icons: [
           {
-            src: path.resolve('src/assets/icon.png'),
+            src: path.resolve('src/images/logo.png'),
             sizes: [96, 128, 192, 256, 384, 512],
           },
         ],
